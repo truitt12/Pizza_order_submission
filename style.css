@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+.dataField{
+    width: 1250px;
+    height: 500px;
+    background-color: rgb(187, 93, 16);
+    /* Center horizontally*/
+    
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+.orderSubmission{
+background-color: azure;
+    width: auto;
+    height: 200px;
+}
+.title{
+text-align: center;
+
+}
