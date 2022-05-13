@@ -133,7 +133,7 @@ order.push(method);
 
 
 
-alert("Your order has been saved!  your total will be $" + orderPrice )
+alert("Your order has been saved, to start over clear your order and create a new one!  your total will be $" + orderPrice )
 document.getElementById("time").innerHTML = "Your order was placed at " + d;
 
 
