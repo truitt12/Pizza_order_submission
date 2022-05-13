@@ -1,3 +1,8 @@
+
+
+
+
+
 let order = ["Your order is: "];
 let orderPrice = 0;
 let d = new Date;
@@ -66,6 +71,19 @@ for(var i = 0; i < toppings.length; i++ ){
         order.push(toppings[i].value);
 
         orderPrice += 3
+        toppingArray.push(toppings[i].value);
+        
+        
+
+       
+    } 
+
+    if (toppings[i].checked   === true && toppings[i].value == "cheese"  ){
+        
+
+        order.push(toppings[i].value);
+        orderPrice += 0
+
         toppingArray.push(toppings[i].value);
         
         
